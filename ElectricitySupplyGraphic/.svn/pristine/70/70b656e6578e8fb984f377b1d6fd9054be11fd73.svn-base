@@ -1,0 +1,73 @@
+﻿<ThemeStyle:WindowBase xmlns:swc="clr-namespace:System.Windows.Controls;assembly=FrameWorkExtension" 
+        x:Class="MetroStopStation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ThemeStyle="clr-namespace:Themes.CustomControls;assembly=Themes"
+        xmlns:local="clr-namespace:MetroStopStation"      
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="825"  KeyDown="Window_KeyDown">
+    
+    <Grid>      
+        <DockPanel>
+            <StackPanel  DockPanel.Dock="Top" >
+                <Menu Height="26">
+                    <MenuItem Header="文件">
+                        <MenuItem Header="新建" Click="NewFileMenu_Clicked"></MenuItem>
+                        <MenuItem Header="保存" Click="SaveFileMenu_Clicked"></MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="视图">
+                        <MenuItem Header="工具箱" />
+                    </MenuItem>
+                </Menu>
+                <WrapPanel>
+                    <ToolBar Name="controlToolBar" Width="120" Height="26">
+                        <RadioButton  Name="CanvasMove" Content="移动" Checked="CanvasMoveTool_Checked"></RadioButton>
+                        <RadioButton Name="ItemSelect" Content="选择" Checked="ElementSelectTool_Checked"></RadioButton>
+
+                    </ToolBar>
+                    <ToolBar Width="120">
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="ZoomOut" Content="放大" Click="SendCommandToChild_Clicked"></RepeatButton>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="ZoomIn" Content="缩小" Click="SendCommandToChild_Clicked"></RepeatButton>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="ZoomRestore" Content="还原" Click="SendCommandToChild_Clicked"></RepeatButton>
+                    </ToolBar>
+                    <ToolBar>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="Copy" Content="复制" Click="SendCommandToChild_Clicked"/>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="Paste" Content="粘贴" Click="SendCommandToChild_Clicked"/>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="Delete" Content="删除" Click="SendCommandToChild_Clicked"/>
+                    </ToolBar>
+                    <ToolBar>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="graphicExportButton" Content="保存文件" Click="GraphicExportButton_Click"></RepeatButton>
+                        <RepeatButton Style="{DynamicResource RepeatButtonStyle}" Name="graphicImportButton" Content="打开文件" Click="GraphicImportButton_Clicked"></RepeatButton>
+                    </ToolBar>
+                </WrapPanel>
+               
+                
+            </StackPanel>
+            <DockPanel DockPanel.Dock="Top">
+                <StackPanel DockPanel.Dock="Left" Width="Auto" Name="ToolWindow">
+                    <!--<Button Content="工具箱"></Button>-->
+                </StackPanel>
+                <DockPanel DockPanel.Dock="Left" Name="workAreaPanel">
+                    <ListBox Name="toolBox" DockPanel.Dock="Left" Width="80" SelectionChanged="ToolBox_SelectionChanged">
+                        <ListBoxItem Name="StraightLine" Content="直连线"/>
+                        <ListBoxItem Name="LShapeLine" Content="L连线"></ListBoxItem>
+                        <ListBoxItem Name="Switch" Content="开关"></ListBoxItem>
+                        <ListBoxItem Name="GroundSwitch" Content="接地开关"></ListBoxItem>
+                        <ListBoxItem Name="ElectricConfirm" Content="验电"></ListBoxItem>
+                        <ListBoxItem Name="TrackLine" Content="轨道"></ListBoxItem>
+                        <ListBoxItem Name="LineBreaker" Content="断开器"></ListBoxItem>
+                        <ListBoxItem Name="TrackID" Content="轨道ID标示"></ListBoxItem>
+                        <ListBoxItem Name="PlatDoor"  Content="平台门"></ListBoxItem>                        
+                    </ListBox>
+
+                    <TabControl Name="tabControl">
+                        
+                    </TabControl>
+                </DockPanel>
+            </DockPanel>
+
+        </DockPanel>       
+    </Grid>
+</ThemeStyle:WindowBase> 

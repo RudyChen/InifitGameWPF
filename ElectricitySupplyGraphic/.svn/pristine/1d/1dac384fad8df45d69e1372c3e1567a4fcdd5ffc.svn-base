@@ -1,0 +1,170 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MetroStopStation
+{
+
+    public enum ToolControlType
+    {
+        ToggleButton,
+        Label,
+        Line,
+        Polyline,
+        Other
+    }
+
+    public enum ToolType
+    {
+        /// <summary>
+        /// 图形选择
+        /// </summary>
+        ItemSelect,
+        /// <summary>
+        /// 移动画布
+        /// </summary>
+        CanvasMove,
+        /// <summary>
+        /// 直线
+        /// </summary>
+        StraightLine,
+        /// <summary>
+        /// L型线
+        /// </summary>
+        LShapeLine,
+        /// <summary>
+        /// 开关
+        /// </summary>
+        Switch,
+        /// <summary>
+        /// 接地设备
+        /// </summary>
+        GroundSwitch,
+        /// <summary>
+        /// 验电点
+        /// </summary>
+        ElectricConfirm,
+        /// <summary>
+        /// 轨道形状
+        /// </summary>
+        TrackLine,
+        /// <summary>
+        /// 轨道名称
+        /// </summary>
+        TrackID,
+        /// <summary>
+        /// 电路断开标识
+        /// </summary>
+        LineBreaker,
+        /// <summary>
+        /// 平台门
+        /// </summary>
+        PlatDoor,
+        /// <summary>
+        /// 断路器
+        /// </summary>
+        CircuitBreaker
+    }
+
+    public class ToolItem
+    {
+        private ToolType toolType;
+
+        private bool isSelected;
+
+        private bool isDrawShape;
+
+        private ToolControlType controlType;
+
+        public ToolControlType ControlType
+        {
+            get { return controlType; }
+            set { controlType = value; }
+        }
+
+
+        public bool IsDrawShape
+        {
+            get { return isDrawShape; }
+            set { isDrawShape = value; }
+        }
+
+
+        public bool IsSelected
+        {
+            get { return isSelected; }
+            set { isSelected = value; }
+        }
+
+        public ToolType ToolType
+        {
+            get { return toolType; }
+            set { toolType = value; }
+        }
+    }
+
+    public class ToolManager
+    {
+       
+        private static ToolManager instance;
+        private static object _lock = new object();
+
+        private List<ToolItem> tools=new List<ToolItem>();
+
+        public List<ToolItem> Tools
+        {
+            get { return tools; }
+            set { tools = value; }
+        }
+
+
+        private ToolManager()
+        {
+            Tools.Add(new ToolItem() { ToolType = ToolType.ItemSelect, IsSelected = false , IsDrawShape =false, ControlType=ToolControlType.Other });
+            Tools.Add(new ToolItem() { ToolType = ToolType.CanvasMove, IsSelected = false,IsDrawShape=false, ControlType = ToolControlType.Other });
+            Tools.Add(new ToolItem() { ToolType = ToolType.StraightLine, IsSelected = false ,IsDrawShape = true, ControlType = ToolControlType.Line });
+            Tools.Add(new ToolItem() { ToolType = ToolType.LShapeLine, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.Polyline });
+            Tools.Add(new ToolItem() { ToolType = ToolType.Switch, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.ToggleButton });
+            Tools.Add(new ToolItem() { ToolType = ToolType.GroundSwitch, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.ToggleButton });
+            Tools.Add(new ToolItem() { ToolType = ToolType.ElectricConfirm, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.ToggleButton });
+            Tools.Add(new ToolItem() { ToolType = ToolType.TrackLine, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.Label });
+            Tools.Add(new ToolItem() { ToolType = ToolType.TrackID, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.Label });
+            Tools.Add(new ToolItem() { ToolType = ToolType.LineBreaker, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.Label });
+            Tools.Add(new ToolItem() { ToolType = ToolType.PlatDoor, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.ToggleButton });
+            Tools.Add(new ToolItem() { ToolType = ToolType.CircuitBreaker, IsSelected = false, IsDrawShape = true, ControlType = ToolControlType.ToggleButton });
+        }
+
+        public static ToolManager GetInstance()
+        {
+            if (instance == null)
+            {
+                lock (_lock)
+                {
+                    if (instance == null)
+                    {
+                        instance = new ToolManager();
+                    }
+                }
+            }
+            return instance;
+        }
+
+        public void SetSelectToolItem(ToolType toolType)
+        {
+            foreach (var item in tools)
+            {
+                if (item.ToolType== toolType)
+                {
+                    item.IsSelected = true;
+                }
+                else
+                {
+                    item.IsSelected = false;
+                }
+            }
+        }
+
+    }
+}

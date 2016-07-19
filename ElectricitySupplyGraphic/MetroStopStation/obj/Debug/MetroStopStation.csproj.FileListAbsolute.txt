@@ -1,0 +1,78 @@
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation.csprojResolveAssemblyReference.cache
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\ImportGraphicFile.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MainWindow.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\App.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation_MarkupCompile.cache
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation_MarkupCompile.lref
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\MetroStopStation.exe.config
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\MetroStopStation.exe
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\MetroStopStation.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\FrameWorkExtension.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\FrameWorkExtension.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\App.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\ImportGraphicFile.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MainWindow.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation.g.resources
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation.Properties.Resources.resources
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation.csproj.GenerateResource.Cache
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation.exe
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\GraphicPanelControl.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\GraphicPanelControl.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\obj\Debug\MetroStopStation_Content.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\Themes.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\MetroStopStation\bin\Debug\Themes.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\MetroStopStation.exe.config
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.exe
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\MetroStopStation.exe
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\MetroStopStation.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\FrameWorkExtension.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Themes.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\FrameWorkExtension.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Themes.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.csprojResolveAssemblyReference.cache
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\GraphicPanelControl.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\ImportGraphicFile.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MainWindow.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\App.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation_Content.g.cs
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation_MarkupCompile.cache
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation_MarkupCompile.lref
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\App.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\GraphicPanelControl.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\ImportGraphicFile.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MainWindow.baml
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.g.resources
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.Properties.Resources.resources
+C:\Users\mike\Documents\Visual Studio 2015\Projects\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.csproj.GenerateResource.Cache
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\MetroStopStation.exe.config
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.exe
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.pdb
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\MetroStopStation.exe
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\MetroStopStation.pdb
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\FrameWorkExtension.dll
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Microsoft.WindowsAPICodePack.dll
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Themes.dll
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\FrameWorkExtension.pdb
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\bin\Debug\Themes.pdb
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.csprojResolveAssemblyReference.cache
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\GraphicPanelControl.g.cs
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\ImportGraphicFile.g.cs
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MainWindow.g.cs
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\App.g.cs
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation_Content.g.cs
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation_MarkupCompile.cache
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation_MarkupCompile.lref
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\App.baml
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\GraphicPanelControl.baml
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\ImportGraphicFile.baml
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MainWindow.baml
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.g.resources
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.Properties.Resources.resources
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\MetroStopStation\obj\Debug\MetroStopStation.csproj.GenerateResource.Cache

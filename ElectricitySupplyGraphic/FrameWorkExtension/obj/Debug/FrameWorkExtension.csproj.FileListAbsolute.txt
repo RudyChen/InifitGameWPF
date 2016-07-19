@@ -1,0 +1,9 @@
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\FrameWorkExtension\bin\Debug\FrameWorkExtension.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\FrameWorkExtension\bin\Debug\FrameWorkExtension.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\FrameWorkExtension\obj\Debug\FrameWorkExtension.dll
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\FrameWorkExtension\obj\Debug\FrameWorkExtension.pdb
+C:\Users\mike\Documents\Visual Studio 2015\Projects\MetroStopStation\FrameWorkExtension\obj\Debug\FrameWorkExtension.csprojResolveAssemblyReference.cache
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\FrameWorkExtension\bin\Debug\FrameWorkExtension.dll
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\FrameWorkExtension\bin\Debug\FrameWorkExtension.pdb
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\FrameWorkExtension\obj\Debug\FrameWorkExtension.dll
+F:\SVN\Projects\安全供电管理系统\安全供电绘图软件\ElectricitySupplyGraphic\FrameWorkExtension\obj\Debug\FrameWorkExtension.pdb
